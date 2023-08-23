@@ -6,12 +6,13 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg text-uppercase">
       <div class="container">
-          <a class="navbar-brand font-weight-bold" href="#">Logo</a>
+          <a class="navbar-brand font-weight-bold" href="#">MyPortfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,8 +20,8 @@
               <div class="navbar-nav m-auto navbar-shift">
                   <a class="nav-link px-lg-4 rounded" href="#">Home</a>
                   <a class="nav-link px-lg-4 rounded" href="#">Features</a>
-                  <a class="nav-link px-lg-4 rounded" href="#">Pricing</a>
-                  <a class="nav-link px-lg-4 rounded" href="#">Blog</a>
+                  <a class="nav-link px-lg-4 rounded" href="#">Skills</a>
+                  <a class="nav-link px-lg-4 rounded" href="#">Projects</a>
               </div>
           </div>
       </div>
@@ -36,7 +37,7 @@
              <div class="col-log-6 py-5 mr-auto">
               
               <h4>         Hello, I'm</h4>
-              <h3>Taskiya</h3>
+              <h3 data-aos="zoom-in-up"  data-aos-duration="1000">Taskiya</h3>
            
               <h6 class="pt3">WebCraft Apprentice</h6>
 
@@ -54,45 +55,45 @@
         <div class="container py-5">
           <div class="row">
             <div class="col-lg-5">
-              <img src="../ab.jpg" class="img-fluid" alt="">
+              <img src="../ab.jpg"  data-aos="fade-right"  data-aos-duration="2000" class="img-fluid" alt="">
   
           </div>
           <div class="col-lg-7 pt-3">
             <h1>About me.</h1>
             <p>STUDENT OF COMPUTER SCIENCE AND ENGINEERING</p>
-            <p class="py-3">"Hello! I'm <span class="font-weight-bold"><b>Taskiya Akther Asha</b></span> an aspiring web developer with a passion for crafting user-centric web experiences that combine technology and design, driven by a dedication to learning and innovation."</p>
+            <p class="py-3" data-aos="zoom-out-down"  data-aos-duration="2000">"Hello! I'm <span class="font-weight-bold" ><b>Taskiya Akther Asha</b></span> an aspiring web developer with a passion for crafting user-centric web experiences that combine technology and design, driven by a dedication to learning and innovation."</p>
           
              <div class="progress my-3">
               <div class="pro-value1">
-                <p>HTML / CSS <span class="text-white float-right">95%</span></p>
+                <p>HTML / CSS <span class="text-Black float-right">95%</span></p>
               </div>
              </div>
              <div class="progress my-3">
               <div class="pro-value2">
-                <p>BOOTSTRAP <span class="text-white float-right">70%</span></p>
+                <p>BOOTSTRAP <span class="text-Black float-right">70%</span></p>
               </div>
              </div>
 
              <div class="progress my-3">
               <div class="pro-value3">
-                <p>C <span class="text-white float-right">60%</span></p>
+                <p>C <span class="text-Black float-right">60%</span></p>
               </div>
              </div>
              <div class="progress my-3">
               <div class="pro-value4">
-                <p>C++ <span class="text-white float-right">55%</span></p>
+                <p>C++ <span class="text-Black float-right">55%</span></p>
               </div>
              </div>
                          
              <div class="progress my-3">
               <div class="pro-value5">
-                <p>MySQL<span class="text-white float-right">20%</span></p>
+                <p>MySQL<span class="text-Black float-right">20%</span></p>
               </div>
              </div>
 
              <div class="progress my-3">
               <div class="pro-value6">
-                <p>Java<span class="text-white float-right">18%</span></p>
+                <p>Java<span class="text-Black float-right">18%</span></p>
               </div>
              </div>
                <input type="button" class="btn1 mt-5" value="Download C.V">
@@ -103,8 +104,69 @@
           </div>
       </section>
 
+      <section class="3rd py-5">
+      <div class="section" data-aos="fade-left"  data-aos-duration="2000">
+        <h2>Academic Results</h2>
+        <div class="result">
+            <span class="label">Secondary School Certificate (SSC) Result:</span>
+            <span class="gpa">4.61 GPA</span>
+        </div>
+        <div class="result">
+            <span class="label">Higher Secondary Certificate (HSC) Result:</span>
+            <span class="gpa">4.67 GPA</span>
+        </div>
+        <div class="result">
+            <span class="label">Current University GPA:</span>
+            <span class="gpa">3.81 GPA</span>
+        </div>
+    </div>
+
+    <div class="sec1" data-aos="fade-right"  data-aos-duration="2000">
+      <h2>Work Experience</h2>
+      <div class="experience">
+          <p class="position">Content Writer</p>
+          <p class="company">Fastsole Company</p>
+          <p class="duration">1 year</p>
+      </div>
+    </div>
+
+      
+      <div class="sec2" data-aos="fade-up"  data-aos-duration="2000">
+        <!-- ... Other content ... -->
+    
+        <h2>Extracurricular Activities</h2>
+        <div class="activity">
+            <p class="name">ROBO-fest 2.0</p>
+            <p class="details">Participated in the university's ROBO-fest 2.0, showcasing a robot designed to perform specific tasks. Collaborated with a team of fellow students to develop the robot's functionalities and algorithms.</p>
+        </div>
+    
+        <div class="activity">
+            <p class="name">Graphic Design</p>
+            <p class="details">Proficient in graphic design using tools like Adobe Photoshop. Created various digital designs, including posters, banners, and social media content, for university events and personal projects.</p>
+        </div>
+    </div>
+    </section>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
