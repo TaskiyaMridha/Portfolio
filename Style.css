@@ -368,5 +368,62 @@ h2 {
 
 
 
+/* Styles for the contact section */
+.contact-section {
+    background-color: #f4f4f4; /* Adjust the background color as needed */
+    padding: 40px 0; /* Adjust padding as needed */
+    text-align: center; /* Center-align the content within the section */
+}
+
+/* Styles for the container within the contact section */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Styles for the "Contact Me" heading */
+.contact-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the contact information items */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center-align the contact items horizontally */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styles for the icons */
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Style for links */
+.contact-item a {
+    color: #007BFF; /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
